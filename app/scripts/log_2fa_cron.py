@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 import sys
-import os
 sys.path.append("/app")
 
-import time, os
+import os
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 from app.totp_utils import generate_totp_code
